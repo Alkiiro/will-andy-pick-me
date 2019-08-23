@@ -10,3 +10,111 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
+
+.titlecard-sec {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: .6em 0;
+  font-size: 3.5em;
+  color: #2B4E80;
+}
+
+.primary-content-sec {
+  display: flex;
+  justify-content: center;
+
+}
+
+.user-input-form-art {
+  display: flex;
+  flex-direction: column;
+  height: 48vh;
+  width: 32%;
+  background-color: #E6ECF4;
+}
+
+.ask-question-in {
+  display: flex;
+  justify-content: center;
+  border: 0;
+  border-radius: 1px;
+  margin: .5em 1em 0 1em;
+  padding: .3em;
+  text-align: center;
+  font-size: 1.3em;
+  color: grey;
+}
+
+.get-answer-but {
+  display: flex;
+  justify-content: center;
+  border: 0;
+  border-radius: 1px;
+  margin: .4em 1em;
+  padding: .3em;
+  text-align: center;
+  font-size: 1.3em;
+  color: #FFFFFF;
+  background-color: #2B4E80;
+}
+
+.eightball-container-div {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+
+.eightball-img {
+  margin: 2em;
+  height: auto;
+  width: 28%;
+}
+
+.clear-container-div {
+  display: flex;
+  justify-content: flex-end;
+  height: 2em;
+  margin: 1.6em 0 0 0;
+}
+
+.clear-but {
+  justify-content: center;
+  border: 0;
+  border-radius: 1px;
+  height: 100%;
+  width: 14%;
+  margin: 0 1.4em  0;
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: #D0CDCD;
+}
+
+.woody-img-art {
+  display: flex;
+  justify-content: flex-end;
+  height: 48vh;
+  width: 26%;
+}
+
+.woody-img {
+  height: inherit;
+  width: auto;
+}
