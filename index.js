@@ -22,9 +22,12 @@ var possibleAnswers = [
 ]
 
 var eightBallReply = possibleAnswers[Math.floor(Math.random()*possibleAnswers.length)];
-var getAnswer = document.querySelector(".ask-question-in");
 
-// function userQuestion() {
-//   return
-// }
+// randomizer test = failed
 document.h1.innerText = eightBallReply;
+
+#user-question.addEventListener('click', function emptyInputPlaceholder() {
+  
+})
+
+}
